@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+}
+.accelerate {
+  background-color: #0b69ff;
+  border: solid 2px #0b69ff;
+  margin: 10px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.brake {
+  background-color: hsl(228, 26%, 4%);
+  border: solid 2px #94a3b8;
+  margin: 10px;
+  color: #cbd5e1;
+  padding: 10px;
+  border-radius: 10px;
+}
+.heading-1 {
+  color: #ffffff;
+}
+.heading-2 {
+  color: #ffffff;
+}
+.description {
+  color: #94a3b8;
+}
